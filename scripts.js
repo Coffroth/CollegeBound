@@ -44,7 +44,7 @@ var scenario = {
   },
   two: { 
     text: "Player Name Its your first day of school! You were just assigned a research paper, when will you start it?",
-    buttons: [["Ive got time, I'll start it in a week", "advanceTo(scenario.three)"],["no time to waste!start now", "advanceTo(scenario.four)"]]
+    buttons: [["Ive got time, I'll start it in a week", "advanceTo(scenario.three)"],["no time to waste! start now", "advanceTo(scenario.four)"]]
   },
     three: {
     text: "Player Name It's Your First College Party:D Do you want to go? !Caution 50% chance of getting Covid!",
