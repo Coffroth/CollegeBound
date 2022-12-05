@@ -48,12 +48,12 @@ var scenario = {
   },
     three: {
     text: "Player Name It's Your First College Party:D Do you want to go? !Caution 50% chance of getting Covid!",
-    buttons: [["Yes", "advanceTo(scenario.six)"],["No", "advanceTo(scenario.seven)"]]
+    buttons: [["Yes", "advanceTo(scenario.five)"],["No", "advanceTo(scenario.six)"]]
   },
   
     four: {
     text: "Player Name It's Your Fist College Party:D Do you want to go? !Caution 50% chance of getting Covid!",
-    buttons: [["Yes", "advanceTo(scenario.eight)"],["No", "advanceTo(scenario.nine)"]]
+    buttons: [["Yes", "advanceTo(scenario.seven)"],["No", "advanceTo(scenario.eight)"]]
   },
     five: {
     text: "Player Name OH NO! You Got Covid! You lost a week of school. You ran out of time and didnt feel well till the night it was due. How will you proceed? ",
