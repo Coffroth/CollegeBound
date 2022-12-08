@@ -38,7 +38,7 @@ function OpenScenario(ScenarioName, imageURL, pageURL ) {
     //h1 Super Easy Rosemary Bread//
     document.querySelector("#HeadText h1").innerHTML = this.ScenarioName;
     document.querySelector("#HeadText").style.backgroundImage = "url(" + this.imageURL + ")";
-    loadFileInto(this.page, "#startPage p")
+    loadFileInto(this.page, "#startPage")
 }
 
 
