@@ -38,11 +38,11 @@ function OpenScenario(ScenarioName, imageURL, pageURL ) {
     //h1 Super Easy Rosemary Bread//
     document.querySelector("#HeadText h1").innerHTML = this.ScenarioName;
     document.querySelector("#HeadText").style.backgroundImage = "url(" + this.imageURL + ")";
-    loadFileInto(this.page, "#startPage")
+    loadFileInto(this.page, "#firstScenario ul")
 }
 
 
-BeginGameScenario = new Scenario("Begin Game", "https://images.unsplash.com/photo-1621265040752-58815f16ca6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80.jpg", "GameStartTest.html");
+BeginGameScenario = new Scenario("Begin Game", "https://images.unsplash.com/photo-1621265040752-58815f16ca6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80.jpg", "FirstGameScenario.html");
 
 
 
