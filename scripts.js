@@ -41,7 +41,7 @@ function Scenario(ScenarioName, pageURL ) {
   }
 }
 
-BeginGameScenario = new Scenario("TA DA!!!!!!!", "GameStartTest.html");
+BeginGameScenario = new Scenario("College Bound 1", "GameStartTest.html");
 
 
 
