@@ -1,4 +1,3 @@
-
 // Javascript for tp6
 
 //function to load file from the URL "frontfile" into the object indetified by "whereto"
@@ -8,7 +7,7 @@ function loadFileInto(fromFile, whereTo) {
   // creating a new XMLHttpRequest object
   ajax = new XMLHttpRequest();
 
-  
+
 
   // provides code to do something in response to the AJAX request
   ajax.onreadystatechange = function() {
@@ -20,7 +19,7 @@ function loadFileInto(fromFile, whereTo) {
     }
 
   } // end ajax.onreadystatechange function
-  
+
   // defines the GET/POST method, source, and async value of the AJAX object
   ajax.open("GET", fromFile, true);
   // initiate request and wait for response  
@@ -29,12 +28,12 @@ function loadFileInto(fromFile, whereTo) {
 }
 
 
-function Scenario(ScenarioName, pageURL ) {
+function Scenario(ScenarioName, pageURL) {
 
   this.ScenarioName = ScenarioName;
   this.page = pageURL;
   this.score = 0;
-  
+
   this.displayScenario = function() {
     //h1 Super Easy Rosemary Bread//
     document.querySelector("#HeadText h1").innerHTML = this.ScenarioName;
@@ -44,11 +43,20 @@ function Scenario(ScenarioName, pageURL ) {
 
 BeginGameScenario = new Scenario("College Bound 1", "StartGame.html");
 
+OneWeekScenario = new Scenario("College Bound 1 Week", "1Week.html");
+
+TwoWeeksScenario = new Scenario("College Bound 2 Week", "2Weeks.html");
 
 
 window.onload = function() {
 
   document.querySelector("#startButton").onclick = function() {
-   BeginGameScenario.displayScenario();
+    BeginGameScenario.displayScenario();
+  }
+  document.querySelector("#Button1week").onclick = function() {
+    OneWeekScenario.displayScenario();
+  }
+  document.querySelector("#Button2Week").onclick = function() {
+    TwoWeeksScenario.displayScenario();
   }
 }
