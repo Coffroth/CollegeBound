@@ -8,8 +8,7 @@ function loadFileInto(fromFile, whereTo) {
   // creating a new XMLHttpRequest object
   ajax = new XMLHttpRequest();
 
-  // defines the GET/POST method, source, and async value of the AJAX object
-  ajax.open("GET", fromFile, true);
+  
 
   // provides code to do something in response to the AJAX request
   ajax.onreadystatechange = function() {
@@ -21,7 +20,9 @@ function loadFileInto(fromFile, whereTo) {
     }
 
   } // end ajax.onreadystatechange function
-
+  
+  // defines the GET/POST method, source, and async value of the AJAX object
+  ajax.open("GET", fromFile, true);
   // initiate request and wait for response  
   ajax.send();
 
@@ -37,17 +38,17 @@ function Scenario(ScenarioName, pageURL ) {
   this.displayScenario = function() {
     //h1 Super Easy Rosemary Bread//
     document.querySelector("#HeadText h1").innerHTML = this.ScenarioName;
-    loadFileInto(this.page, "#Question p")
+    loadFileInto(this.page, "#Question")
   }
 }
 
-BeginGameScenario = new Scenario("College Bound 1", "Scenario_1.html");
+BeginGameScenario = new Scenario("College Bound 1", "StartGame.html");
 
 
 
 window.onload = function() {
 
-  document.querySelector("#testButton").onclick = function() {
+  document.querySelector("#startButton").onclick = function() {
    BeginGameScenario.displayScenario();
   }
 }
