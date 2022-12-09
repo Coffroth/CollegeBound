@@ -28,29 +28,26 @@ function loadFileInto(fromFile, whereTo) {
 }
 
 
-function OpenScenario(ScenarioName, imageURL, pageURL ) {
+function Scenario(ScenarioName, pageURL ) {
 
   this.ScenarioName = ScenarioName;
-  this.imageURL = imageURL;
   this.page = pageURL;
+  this.score = 0;
   
   this.displayScenario = function() {
     //h1 Super Easy Rosemary Bread//
     document.querySelector("#HeadText h1").innerHTML = this.ScenarioName;
-    document.querySelector("#HeadText").style.backgroundImage = "url(" + this.imageURL + ")";
-    loadFileInto(this.page, "#firstScenario ul")
+    loadFileInto(this.page, "#Question p")
+  }
 }
 
-
-BeginGameScenario = new Scenario("Begin Game", "https://images.unsplash.com/photo-1621265040752-58815f16ca6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80.jpg", "FirstGameScenario.html");
+BeginGameScenario = new Scenario("TA DA!!!!!!!", "GameStartTest.html");
 
 
 
 window.onload = function() {
 
-  document.querySelector("#firstScenario").onclick = function() {
+  document.querySelector("#testButton").onclick = function() {
    BeginGameScenario.displayScenario();
   }
-  }
-
-} 
+}
