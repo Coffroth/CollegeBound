@@ -1,7 +1,6 @@
 // Javascript for tp6
 
 //function to load file from the URL "frontfile" into the object indetified by "whereto"
-
 function loadFileInto(fromFile, whereTo) {
 
   // creating a new XMLHttpRequest object
@@ -27,6 +26,21 @@ function loadFileInto(fromFile, whereTo) {
 
 }
 
+var identifiers = {
+  start: {
+    text: "#Question",
+    button: "#startButton"
+  },
+  first: {
+    text: "#Question",
+    button1: "#Button1week",
+    button2: "#Button2week"
+  },
+  second: {
+    
+  }
+  
+}
 
 function Scenario(ScenarioName, pageURL) {
 
@@ -34,10 +48,18 @@ function Scenario(ScenarioName, pageURL) {
   this.page = pageURL;
   this.score = 0;
 
-  this.displayScenario = function() {
+  this.displayScenario = function(week) {
     //h1 Super Easy Rosemary Bread//
     document.querySelector("#HeadText h1").innerHTML = this.ScenarioName;
-    loadFileInto(this.page, "#Question")
+    if(week == start){
+      loadFileInto(this.page, identifiers.week.text);
+    loadFileInto(this.page, identifiers.week.startButton);
+    }
+    else{
+    loadFileInto(this.page, identifiers.week.text);
+    loadFileInto(this.page, identifiers.week.button1);
+    loadFileInto(this.page, identifiers.week.button2);
+    }
   }
 }
 
@@ -51,12 +73,12 @@ TwoWeeksScenario = new Scenario("College Bound 2 Week", "2Weeks.html");
 window.onload = function() {
 
   document.querySelector("#startButton").onclick = function() {
-    BeginGameScenario.displayScenario();
+    BeginGameScenario.displayScenario(start);
   }
-  document.querySelector("#Button1week").onclick = function() {
-    OneWeekScenario.displayScenario();
-  }
-  document.querySelector("#Button2Week").onclick = function() {
-    TwoWeeksScenario.displayScenario();
-  }
+//   document.querySelector("#Button1week").onclick = function() {
+//     OneWeekScenario.displayScenario();
+//   }
+//   document.querySelector("#Button2Week").onclick = function() {
+//     TwoWeeksScenario.displayScenario();
+//   }
 }
