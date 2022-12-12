@@ -3,35 +3,24 @@
 }
 
 body {
-  background-color: crimson;
+  background-color: #A60F2D;
   padding: 0;
   margin: 0;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
-#nav {
-  width: 100%;
-  height: 2rem;
-  background-color: #ccc;
-}
-
-#nav a {
-  font-size: 80%;
-  text-decoration: none;
-  padding-right: 1rem;
-}
-
-#HeadText {
+.HeadText {
   position: relative;
   width: 100%;
   height: 50vh;
-   background-size: cover;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1462536943532-57a629f6cc60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80.jpg");
   background-position: center center;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0, 7);
 }
 
-#HeadText h1 {
+.HeadText h1 {
   font-family: 'Playball';
   font-size: 500%;
   color: white;
@@ -46,16 +35,21 @@ body {
   line-height: 80%;
 }
 
-#HeadText h1.tp {
-  font-size: 250%
+#HeadTextNoImg h1 {
+  display: none;
 }
 
-#HeadText h1.black {
+#HeadTextNoImg {
+  background-image: none;
+  background-size: auto;
+}
+
+.HeadText h1.black {
   color: black;
   text-shadow: 0px 8px 8px #000000;
 }
 
-#HeadText h3 {
+/* .HeadText h3 {
   position: absolute;
   color: white;
   font-size: 200%;
@@ -67,37 +61,44 @@ body {
   width: 100%;
   background-size: cover;
   background-position: center center;
+} */
+}
+#gradeHead {
+  margin-top: 10vh;
 }
 
 h7 {
-  margin-bottom: 0;
-  margin-top: 0;
+  margin-bottom: 0;;
   font-family: 'Playball';
   font-size: 50px;
   color: white;
 }
 
-h2{
-   font-size: 35px;
+/* h2 {
+  font-size: 35px;
   text-align: right;
   margin-right: 20vw;
-}
-h5{
-   margin-bottom: 3vh;
+} */
+
+h5 {
+  margin-bottom: 3vh;
   margin-top: 3vh;
   margin-left: 30vw;
   margin-right: 30vw;
   font-size: 24px;
   color: white;
   text-shadow: 0px 2px 2px #000000;
+  font-weight: 400;
 }
 
-p{
+p {
   margin-bottom: 3vh;
   margin-top: 0;
   font-size: 20px;
   color: white;
+   font-weight: 700;
 }
+
 #footer {
   margin-top: 30vh;
   font-size: 9px;
@@ -105,6 +106,58 @@ p{
   font-family: Arial;
   position: absolute;
 }
+
+h4 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 30px;
+  color: White;
+  font-family: 'Creepster', cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Creepster&family=Montserrat:wght@100;400;700&display=swap");
+  text-shadow: 0px 2px 2px maroon;
+}
+
+#failH {
+ margin-bottom: 3vh;
+  margin-top: 3vh;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  font-size: 18px;
+  color: white;
+  text-shadow: 0px 2px 2px #000000;
+  font-weight: 400;
+}
+
+#failMark {
+  color: white;
+  background-color: #4D4D4D;
+}
+
+#failP {
+  margin-bottom: 3vh;
+  margin-top: 0;
+  font-size: 15px;
+  color: white;
+   font-weight: 700;
+    text-shadow: 0px 2px 2px #000000;
+}
+
+.button {
+  background-color: #4D4D4D;
+  color: black;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+
+
+/* text-shadow: [x-offset] [y-offset] [blur-radius] [color]; */
+
+
 /* #scoreTot {
    font-size: 24px;
   text-align: right;
