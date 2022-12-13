@@ -72,13 +72,13 @@ function Scenario(ScenarioName, routeURL, imageURL) {
 
   P132Scenario = new Scenario("College Bound Day 7", "P1-32.html", "https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1736&q=80.jpg")
 
-  P141Scenario = new Scenario("College Bound Day 7", "P1-41.html", "https://images.unsplash.com/photo-1653771926509-729281fda8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80")
+  P141Scenario = new Scenario("College Bound Day 7", "P1-41.html", "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80.jpg")
 
-  P142Scenario = new Scenario("College Bound Day 7", "P1-42.html", "https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1766&q=80.jpg")
+  P142Scenario = new Scenario("College Bound Day 7", "P1-42.html", "https://images.unsplash.com/photo-1653771926509-729281fda8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80.jpg")
 
-  P143Scenario = new Scenario("College Bound Day 7", "P1-43.html", "https://images.unsplash.com/photo-1653771926509-729281fda8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80.jpg")
+  P143Scenario = new Scenario("College Bound Day 7", "P1-43.html", "https://images.unsplash.com/photo-1529386317747-0a2a51add902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80.jpg")
 
-  P144Scenario = new Scenario("College Bound Day 7", "P1-44.html", "https://images.unsplash.com/photo-1653771926509-729281fda8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80.jpg")
+  P144Scenario = new Scenario("College Bound Day 7", "P1-44.html", "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80.jpg")
 
 
   //PA week 2 scenarios//
@@ -86,40 +86,40 @@ function Scenario(ScenarioName, routeURL, imageURL) {
 
   P231Scenario = new Scenario("College Bound Day 7", "P2-31.html", "https://images.unsplash.com/photo-1643841170740-d9f8ee7ed5ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80.jpg")
 
-  P232Scenario = new Scenario("College Bound Day 7", "P2-32.html", "https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1736&q=80.jpg")
+  P232Scenario = new Scenario("College Bound Day 7", "P2-32.html", "https://images.unsplash.com/photo-1639598003276-8a70fcaaad6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80.jpg")
 
-  P141Scenario = new Scenario("College Bound Day 7", "P2-41.html", "https://images.unsplash.com/photo-1653771926509-729281fda8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80")
+  P241Scenario = new Scenario("College Bound Day 7", "P2-41.html", "https://images.unsplash.com/photo-1529386317747-0a2a51add902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80.jpg")
 
-  P242Scenario = new Scenario("College Bound Day 7", "P2-42.html", "https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1766&q=80.jpg")
+  P242Scenario = new Scenario("College Bound Day 7", "P2-42.html", "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80.jpg")
 
-  P243Scenario = new Scenario("College Bound Day 7", "P2-43.html", "https://images.unsplash.com/photo-1653771926509-729281fda8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80.jpg")
+  P243Scenario = new Scenario("College Bound Day 7", "P2-43.html", "https://images.unsplash.com/photo-1529386317747-0a2a51add902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80.jpg")
 
-  P244Scenario = new Scenario("College Bound Day 7", "P2-44.html", "https://images.unsplash.com/photo-1653771926509-729281fda8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80.jpg")
+  P244Scenario = new Scenario("College Bound Day 7", "P2-44.html", "https://images.unsplash.com/photo-1529386317747-0a2a51add902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80.jpg")
 
   //S week 1scenarios//
-  S12Scenario = new Scenario("College Bound Day 1", "S1-2.html", "https://images.unsplash.com/photo-1586105449897-20b5efeb3233?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80.jpg");
+  S12Scenario = new Scenario("College Bound Day 1", "S1-2.html", "https://images.unsplash.com/photo-1566755272146-d8ebc6bdcdc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80.jpg");
 
-  S131Scenario = new Scenario("College Bound Day 7", "S1-31.html", "https://images.unsplash.com/photo-1643841170740-d9f8ee7ed5ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80.jpg")
+  S131Scenario = new Scenario("College Bound Day 7", "S1-31.html", "https://images.unsplash.com/photo-1603484703346-361154238e8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80 .jpg")
 
-  S132Scenario = new Scenario("College Bound Day 7", "S1-32.html", "https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1736&q=80.jpg")
+  S132Scenario = new Scenario("College Bound Day 7", "S1-32.html", "https://images.unsplash.com/photo-1571474039046-42bc4e7f4b98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80.jpg")
 
   S141Scenario = new Scenario("College Bound Day 7", "S1-41.html", "https://images.unsplash.com/photo-1653771926509-729281fda8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80")
 
-  S142Scenario = new Scenario("College Bound Day 7", "S1-42.html", "https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1766&q=80.jpg")
+  S142Scenario = new Scenario("College Bound Day 7", "S1-42.html", "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80.jpg")
 
-  S143Scenario = new Scenario("College Bound Day 7", "S1-43.html", "https://images.unsplash.com/photo-1653771926509-729281fda8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80.jpg")
+  S143Scenario = new Scenario("College Bound Day 7", "S1-43.html", "https://images.unsplash.com/photo-1643841170740-d9f8ee7ed5ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80.jpg.jpg")
 
   S144Scenario = new Scenario("College Bound Day 7", "S1-44.html", "https://images.unsplash.com/photo-1653771926509-729281fda8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80.jpg")
 
 
   //S week 2 scenarios//
-  S22Scenario = new Scenario("College Bound Day 1", "S2-2.html", "https://images.unsplash.com/photo-1586105449897-20b5efeb3233?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80.jpg");
+  S22Scenario = new Scenario("College Bound Day 1", "S2-2.html", "https://images.unsplash.com/photo-1566755272146-d8ebc6bdcdc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80.jpg");
 
-  S231Scenario = new Scenario("College Bound Day 7", "S2-31.html", "https://images.unsplash.com/photo-1643841170740-d9f8ee7ed5ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80.jpg")
+  S231Scenario = new Scenario("College Bound Day 7", "S2-31.html", "https://images.unsplash.com/photo-1670272501077-c72d2d42f362?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80.jpg")
 
   S232Scenario = new Scenario("College Bound Day 7", "S2-32.html", "https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1736&q=80.jpg")
 
-  S241Scenario = new Scenario("College Bound Day 7", "S2-41.html", "https://images.unsplash.com/photo-1653771926509-729281fda8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80")
+  S241Scenario = new Scenario("College Bound Day 7", "S2-41.html", "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80.jpg")
 
   S242Scenario = new Scenario("College Bound Day 7", "S2-42.html", "https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1766&q=80.jpg")
 
@@ -136,7 +136,7 @@ function Scenario(ScenarioName, routeURL, imageURL) {
 
   avgScenario = new Scenario("College Bound Day 14", "C.html", "https://images.unsplash.com/photo-1612215670548-612dd2de09ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1746&q=80.jpg")
 
-  refYeetScenario = new Scenario("College Bound Day 14", "refC.html", "https://images.unsplash.com/photo-1650906915195-d371a6cf8194?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80.jpg")
+  refAvgScenario = new Scenario("College Bound Day 14", "refC.html", "https://images.unsplash.com/photo-1650906915195-d371a6cf8194?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80.jpg")
 
   ouchScenario = new Scenario("College Bound Day 14", "D.html", "https://images.unsplash.com/photo-1517669375942-946a1f02d705?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1273&q=80.jpg")
 
