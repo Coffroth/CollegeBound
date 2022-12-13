@@ -39,8 +39,6 @@ function loadFileInto(fromFile, whereTo) {
 // BeginGameScore = new Score("Current Score", "trackScore.html");
 
 
-
-
 function Scenario(ScenarioName, routeURL, imageURL) {
 
   this.ScenarioName = ScenarioName;
@@ -61,29 +59,47 @@ function Scenario(ScenarioName, routeURL, imageURL) {
 }
 
 {
-BeginGameScenario = new Scenario("College Bound Day 1", "StartGame.html", "https://images.unsplash.com/photo-1527720255604-b27935ade401?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80.jpg");
+BeginGameScenario = new Scenario("College Bound Day 1", "StartGame.html", "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80.jpg");
 
-OneWeekScenario = new Scenario("College Bound Day 1", "1Week.html", "https://images.unsplash.com/photo-1586105449897-20b5efeb3233?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80.jpg");
-
-TwoWeeksScenario = new Scenario("College Bound Day 1", "2Weeks.html", "https://images.unsplash.com/photo-1586105449897-20b5efeb3233?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80.jpg");
-
-yes1PartyScenario = new Scenario("College Bound Day 7", "oneWeekParty.html", "https://images.unsplash.com/photo-1643841170740-d9f8ee7ed5ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80.jpg")
-
-yes2PartyScenario = new Scenario("College Bound Day 7", "twoWeeksParty.html", "https://images.unsplash.com/photo-1653771926509-729281fda8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80.jpg")
-
-no1PartyScenario = new Scenario("College Bound Day 7", "oneNoParty.html", "https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1736&q=80.jpg")
+  //week 1 scenarios//
+  OneWeekScenario = new Scenario("College Bound Day 1", "1Week.html", "https://images.unsplash.com/photo-1586105449897-20b5efeb3233?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80.jpg");
+ 
+  yes1PartyScenario = new Scenario("College Bound Day 7", "oneWeekParty.html", "https://images.unsplash.com/photo-1643841170740-d9f8ee7ed5ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80.jpg")
+  
+dorm1PartyScenario = new Scenario("College Bound Day 7", "dormOneParty.html", "https://images.unsplash.com/photo-1653771926509-729281fda8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80")
+  
+  no1PartyScenario = new Scenario("College Bound Day 7", "oneNoParty.html", "https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1736&q=80.jpg")
+  
+  
+  
+  //week 2 scenarios//
+  TwoWeeksScenario = new Scenario("College Bound Day 1", "2Weeks.html", "https://images.unsplash.com/photo-1586105449897-20b5efeb3233?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80.jpg");
 
 no2PartyScenario = new Scenario("College Bound Day 7", "twoNoParty.html", "https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1766&q=80.jpg")
 
+yes2PartyScenario = new Scenario("College Bound Day 7", "twoWeeksParty.html", "https://images.unsplash.com/photo-1653771926509-729281fda8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80.jpg")
+  
+  
+  
+  //final grade scenarios//
+  
 honorsScenario = new Scenario("College Bound Day 14", "A.html", "https://images.unsplash.com/photo-1527871369852-eb58cb2b54e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80.jpg")
 
 okScenario = new Scenario("College Bound Day 14", "B.html", "https://images.unsplash.com/photo-1627199219038-e8263f729e3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80.jpg")
 
 avgScenario = new Scenario("College Bound Day 14", "C.html", "https://images.unsplash.com/photo-1612215670548-612dd2de09ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1746&q=80.jpg")
+  
+  refAvgScenario =  new Scenario("College Bound Day 14", "refC.html", "https://images.unsplash.com/photo-1650906915195-d371a6cf8194?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80.jpg")
+  
+  ouchScenario =  new Scenario("College Bound Day 14", "D.html", "https://images.unsplash.com/photo-1517669375942-946a1f02d705?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1273&q=80.jpg")
 
 sadScenario = new Scenario("College Bound Day 14", "F.html", "https://images.unsplash.com/photo-1521075486433-bf4052bb37bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1344&q=80.jpg")
   
-soScenario = new Scenario("College Bound", "trackScore.html", "https://images.unsplash.com/photo-1527720255604-b27935ade401?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80.jpg")
+  yeetScenario = new Scenario("College Bound Day 14", "Expelled.html", "https://images.unsplash.com/photo-1597176116047-876a32798fcc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80.jpg")
+  
+  //reset game//
+  
+soScenario = new Scenario("College Bound", "trackScore.html", "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80.jpg")
 }
 
 // function TryAgain( ResetName, ResetURL, imageReset) {
